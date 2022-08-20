@@ -1,0 +1,14 @@
+body {
+background-color: aquamarine;
+}
+.titulo-rojo {
+ color: rgb(222, 25, 25); font-size: 50px;
+}
+
+#contacto {
+background-color: blue;
+color: red;
+}
+aside{
+    color: orange;
+}
