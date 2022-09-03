@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maqueta</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/images/skull-bone-16x16-pixel-art-260nw-1113310772.webp"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="assets/css/maqueta.css" />
+  </head>
+  <!--Comentario-->
+  <body>
+    <main>
+      <!--Delimita el contenido principal-->
+      <nav class="links-nav">
+        <!--Identifica el espacio donde tenemos la navegacion entre las secciones de una web-->
+        <ul>
+          <li><a href="https://google.com" target="_blank">Google</a></li>
+          <li>
+            <a href="https://github.com/AlexisFaundez" target="_blank"
+              >Github</a
+            >
+          </li>
+          <li><a href="index.html">Portafolio</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <div id="presentacion" class="contenedor">
+          <h1>Maqueta Titulo</h1>
+          <h2>Maqueta Subtitulo</h2>
+          <div>
+            <img
+              class="imagen-empresa hijo"
+              src="https://c.tenor.com/WAFH6TX2VIYAAAAC/polish-cow.gif"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contenedor">
+        <div>
+          <!--Formulario de contacto 50% del ancho de la pantalla-->
+          <form>
+            <label>Nombre</label>
+            <input
+              type="text"
+              id="caja-texto-nombre"
+              name="nombre"
+              placeholder="Pon tu nombre aquí"
+            />
+
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              id="Correo"
+              placeholder="ejemplo@correo.com"
+            />
+            <br />
+            <label>Comentarios</label>
+            <textarea
+              id="text-area"
+              name="comentario"
+              cols="80"
+              rows="5"
+              placeholder="Deja aquí tu comentario"
+            >
+            </textarea>
+            <button class="boton" type="submit">Submit</button>
+          </form>
+        </div>
+        <div>
+          <div>
+            <!--Texto con informacion 25% del ancho de la pantalla-->
+            <h3>Informacion</h3>
+            <ul>
+              <li>Dirección: Plaza de Armas</li>
+              <li>Correo: alexisfaundezd@hotmail.com</li>
+              <li>Teléfono: +56940754539</li>
+            </ul>
+          </div>
+          <div class="mapa">
+            <!--Mapa 25% del ancho de la pantalla-->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.439237677006!2d-70.65039578088567!3d-33.4378720068037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a390957307%3A0xef87ffe6bed7c7!2sPlaza%20de%20Armas!5e0!3m2!1ses-419!2scl!4v1661612812160!5m2!1ses-419!2scl"
+              width="300"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <!--Seccion generalmente posicionada en la parte inferior, generalmente con informacion de contacto de redes
+        sociales y links a ellos-->
+        <a href="https://instagram.com/ale__lexter">Instagram</a>
+      </footer>
+    </main>
+  </body>
+</html>
